@@ -25,7 +25,7 @@ from tensorflow.python.ops import (array_ops, control_flow_ops, control_flow_uti
 from tensorflow.python.ops import variables as variables_lib
 from tensorflow.python.util import tf_inspect
 
-from wit.utils import arg_scope as arg_scope_lib
+import arg_scope as arg_scope_lib
 
 _WRONG_VARS_ERR = """\
 # The variables used on recompute were different than the variables originally
